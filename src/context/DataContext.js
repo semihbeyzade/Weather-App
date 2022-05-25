@@ -12,7 +12,7 @@ const DataContextProvider = (props) => {
     useEffect(() => {
 
         const apiKey = 'e9a52710e7a3d2c9da91287969102a28'
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${apiKey}`
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${apiKey}&units=metric`
        
         const fetchData = async () => {
           try {
@@ -26,8 +26,6 @@ const DataContextProvider = (props) => {
     
         fetchData();
       }, [search]);
-
-      console.log(data);
 
     return (
         <DataContext.Provider value={{data, search, setSearch, input, setInput}}>
