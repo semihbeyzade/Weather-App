@@ -1,9 +1,15 @@
 .bg-opacity{
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .container-component{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1476673160081-cf065607f449?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNlYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
+
