@@ -26,8 +26,10 @@ function Container() {
     second: "2-digit",
   });
 
+  const main =  Object.entries(data).length !== 0 && data.weather[0].main
+
   return (
-    <div className="container-component d-flex justify-content-start align-items-center flex-column">
+    <div className="container-component d-flex justify-content-start align-items-center flex-column" style={{background:`url("./img/${main}.jpg")`}}>
       <form onSubmit={handleSubmit} className="mt-3">
         <div class="input-group mb-4 w-75 mx-auto">
           <input
@@ -45,7 +47,7 @@ function Container() {
           </button>
         </div>
       </form>
-      <div className="card bg-opacity bg-dark text-white d-flex justify-content-center align-items-center w-50 ">
+      <div className="card bg-opacity  text-white d-flex justify-content-center align-items-center w-50 ">
         <div className="card-body">
           <h5 className="card-title">{search.toUpperCase()}</h5>
           <hr/>
@@ -70,7 +72,7 @@ function Container() {
           </h1>
           <hr/>
           <p className="lead fw-bolder mb-0 ">
-            {Object.entries(data).length !== 0 && data.weather[0].main}
+            {Object.entries(data).length !== 0 && data.weather[0].description}
           </p>
           <p className="lead">
             {Object.entries(data).length !== 0 && data.main.temp_min} &deg;C |{" "}

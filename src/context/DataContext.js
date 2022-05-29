@@ -26,7 +26,7 @@ const DataContextProvider = (props) => {
     
         fetchData();
       }, [search]);
-
+    console.log(data);
     return (
         <DataContext.Provider value={{data, search, setSearch, input, setInput}}>
             {props.children}
