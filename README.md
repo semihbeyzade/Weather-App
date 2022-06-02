@@ -14,11 +14,11 @@
 
 ## Reference Images :
 
-<p align="center" width="100%">
-  <img src="public/img/regen.png"  width="33%" height="400"/>
-  <img src="public/img/sonne.png"  width="33%" height="400"/>
-  <img src="public/img/wolke.png"  width="33%" height="400" />
-</p>
+
+  <img src="public/img/regen.png" />
+  <img src="public/img/sonne.png" />
+  <img src="public/img/wolke.png" />
+
 
 
 
