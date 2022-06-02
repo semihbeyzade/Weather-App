@@ -29,7 +29,7 @@ function Container() {
   const main =  Object.entries(data).length !== 0 && data.weather[0].main
 
   return (
-    <div className="container-component d-flex justify-content-start align-items-center flex-column" style={{background:`url("/img/${main}.jpg")`}}>
+    <div className="container-component d-flex justify-content-start align-items-center flex-column" style={{background:`url("img/${main}.jpg")`}}>
       <form onSubmit={handleSubmit} className="mt-3">
         <div class="input-group mb-4 w-75 mx-auto">
           <input
