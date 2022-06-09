@@ -10,7 +10,7 @@
 
 - Frontend : React, Hooks, Context-API, Bootstrap, CSS
 
-- Tools : Github, VSCode, Github, Vercel, Rest API
+- Tools : Github, VSCode, Vercel, Rest API
 
 ## Reference Images :
 
