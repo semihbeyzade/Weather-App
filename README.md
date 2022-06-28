@@ -8,7 +8,7 @@
 
 ## Tools
 
-- Frontend : React, Hooks, Context-API, Bootstrap, CSS
+- Frontend : React, React-Hooks, Context-API, Bootstrap, CSS
 
 - Tools : Github, VSCode, Vercel, Rest API
 
