@@ -68,15 +68,15 @@ function Container() {
             }
           />
           <h1 className="fw-bolder mb-5">
-            {Object.entries(data).length !== 0 && data.main.temp} &deg;C
+            {Object.entries(data).length !== 0 && Math.round(data.main.temp)} &deg;C
           </h1>
           <hr/>
           <p className="lead fw-bolder mb-0 ">
             {Object.entries(data).length !== 0 && data.weather[0].description}
           </p>
           <p className="lead">
-            {Object.entries(data).length !== 0 && data.main.temp_min} &deg;C |{" "}
-            {Object.entries(data).length !== 0 && data.main.temp_max} &deg;C
+            {Object.entries(data).length !== 0 && Math.round(data.main.temp_min)} &deg;C |{" "}
+            {Object.entries(data).length !== 0 && Math.round(data.main.temp_max)} &deg;C
           </p>
         </div>
       </div>
